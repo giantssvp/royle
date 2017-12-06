@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Services";
+}
+
+@Html.Partial("banner1")
+
+<!-- services section -->
+<div class="services" id="services">
+    <div class="heading">
+        <h2>Our Services</h2>
+    </div>
+    <div class="container">
+        <div class="servicegrids">
+            <div class="servicetopgrids">
+                <div class="col-md-4 servicegrid1">
+                    <h5>01</h5>
+                    <h4>Airways Transport</h4>
+                    <p>
+                        Air Transport, commonly known as air freight, is collected by firms from shippers and delivered to customers.
+
+                        We provides many commercial aircraft suitable for carrying cargo, which was purposely built for easy conversion into a cargo aircraft.
+                        Such large aircraft employ quick-loading containers known as unit load devices (ULDs), much like containerized cargo ships.
+
+                    </p>
+                </div>
+                <div class="col-md-4 servicegrid1">
+                    <h5>02</h5>
+                    <h4>Roadways Transport</h4>
+                    <p>
+                        We transport all types of cargo by road. Delivering everything from letters to houses to cargo containers,
+                        we offer fast, sometimes same-day, delivery. We provide automobile, taxi, truck and containers for road transport.
+                    </p>
+                </div>
+                <div class="col-md-4 servicegrid1">
+                    <h5>03</h5>
+                    <h4>Waterways Transport </h4>
+                    <p>
+                        We bring your goods safely to worldwide destinations with our great sea cargo transport services. We have good connectivity to ports
+                        and and warehousing facility to store the goods. We provide inland and outland water transport.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="servicebottomgrids">
+                <div class="col-md-4 servicegrid1">
+                    <h5>04</h5>
+                    <h4>Logistic Management</h4>
+                    <p>
+                        We provide effective logistics management services such as selecting appropriate vendors with the ability to provide transportation facilities
+                        ,choosing the most effective routes for transportation and discovering the most competent delivery method
+                    </p>
+                </div>
+                <div class="col-md-4 servicegrid1">
+                    <h5>05</h5>
+                    <h4>Delivery Unlimited</h4>
+                    <p>
+                        We have proper facility and team of experts to offer Door to Door unlimited Delivery Service to all consumers from commercial area.
+                        In addition to this, these door to door distribution services are reliable and completed by experts in quick time.
+                    </p>
+                </div>
+                <div class="col-md-4 servicegrid1">
+                    <h5>06</h5>
+                    <h4>Fast & Safe Service</h4>
+                    <p>
+                        We provide full supply chain management package including cost effectiveness, safe and fast Air, Road and Sea freight.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //services section -->
+<!-- bootstrap-modal-pop-up -->
+<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                Transport
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <img src="@Url.Content("~/images/bg3.jpg")" alt=" " class="img-responsive" />
+                <p>
+                    Ut enim ad minima veniam, quis nostrum
+                    exercitationem ullam corporis suscipit laboriosam,
+                    nisi ut aliquid ex ea commodi consequatur? Quis autem
+                    vel eum iure reprehenderit qui in ea voluptate velit
+                    esse quam nihil molestiae consequatur, vel illum qui
+                    dolorem eum fugiat quo voluptas nulla pariatur.
+                    <i>
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                        esse quam nihil molestiae consequatur.
+                    </i>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //bootstrap-modal-pop-up -->
+<!-- services bottom -->
+<div class="Servicebottom">
+    <div class="layer">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-7 Servicebottomtext">
+            <h4><i class="fa fa-ship" aria-hidden="true"></i>Import and Export</h4>
+            <h4><i class="fa fa-check" aria-hidden="true"></i>Consolidation</h4>
+            <h4><i class="fa fa-ship" aria-hidden="true"></i>Ocean Freight</h4>
+            <h4><i class="fa fa-tags" aria-hidden="true"></i>Custom Clearance</h4>
+            <h4><i class="fa fa-building" aria-hidden="true"></i>Warehousing and Distribution</h4>
+            <h4><i class="fa fa-truck" aria-hidden="true"></i>Logistics Provider</h4>
+            <h4><i class="fa fa-chain" aria-hidden="true"></i>Supply Chain Management</h4>
+            <h4><i class="fa fa-tasks" aria-hidden="true"></i>Project and Break bulk cargo</h4>
+            <h4><i class="fa fa-automobile" aria-hidden="true"></i>Door Pickup and Door Delivery</h4>
+            <h4><i class="fa fa-plane" aria-hidden="true"></i>Airport to Airport/Station to Station</h4>
+            <h4><i class="fa fa-fighter-jet" aria-hidden="true"></i>International Courier and Cargo</h4>
+            <h4><i class="fa fa-globe" aria-hidden="true"></i>Concern trade between residents and non residents of countries</h4>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //services bottom -->
+
+@Html.Partial("team")

@@ -28,12 +28,7 @@ namespace royle.Controllers
             return View();
         }
 
-        public ActionResult International()
-        {
-            return View();
-        }
-
-        public ActionResult Domestic()
+        public ActionResult Services()
         {
             return View();
         }

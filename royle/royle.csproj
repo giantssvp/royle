@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -258,13 +259,16 @@
     <Content Include="Views\Home\Gallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\International.cshtml" />
+    <Content Include="Views\Home\Services1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Domestic.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\banner1.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Services.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
