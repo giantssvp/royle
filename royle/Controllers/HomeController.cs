@@ -15,7 +15,13 @@ namespace royle.Controllers
         public static string mailTo = "info@deallustechnologies.com";
         public static string mailPassword = "De@!!us2017";
 
-        /*         public static string mailServer = "smtp.gmail.com";         public static string mailFrom = "abcdtes26@gmail.com";         public static string mailTo = "abcdtes26@gmail.com";         public static string mailBCC = "abcdtes26@gmail.com";         public static string mailPassword = "9921642540";        */
+        /*
+         public static string mailServer = "smtp.gmail.com";
+         public static string mailFrom = "abcdtes26@gmail.com";
+         public static string mailTo = "abcdtes26@gmail.com";
+         public static string mailBCC = "abcdtes26@gmail.com";
+         public static string mailPassword = "9921642540";
+        */
 
         public ActionResult Index()
         {
