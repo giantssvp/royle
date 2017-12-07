@@ -777,7 +777,7 @@ button.close {
 }
 /*-- //bootstrap-modal-pop-up --*/
 
-.banner-form-agileinfo input[type="text"], .banner-form-agileinfo input[type="tel"], .banner-form-agileinfo textarea,.banner-form-agileinfo .form-control {
+.banner-form-agileinfo input[type="text"], .banner-form-agileinfo input[type="tel"], .banner-form-agileinfo input[type="email"], .banner-form-agileinfo textarea, .banner-form-agileinfo .form-control {
     border: none;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -789,10 +789,10 @@ button.close {
     letter-spacing: 1px;
 }
 
-.banner-form-agileinfo input[type="text"]:focus, .banner-form-agileinfo input[type="tel"]:focus, .banner-form-agileinfo textarea {
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
-}
+    .banner-form-agileinfo input[type="text"]:focus, .banner-form-agileinfo input[type="tel"]:focus, .banner-form-agileinfo input[type="email"]:focus, .banner-form-agileinfo textarea {
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    }
 .banner-form-agileinfo span {
     color: #23B684;
 }
@@ -2104,7 +2104,7 @@ h4.white-w3ls {
 .contact-form  textarea {
     height: 8em;
 }
-.contact-form input[type="submit"] {
+.contact-form input[type="submit"], input[type="reset"] {
     border: none;
     padding: 0.7em 2.5em;
     font-size: 15px;
@@ -2114,7 +2114,7 @@ h4.white-w3ls {
     background: #e01f3d;
     color: #fff;
 }
-.contact-form input[type="submit"]:hover {
+.contact-form input[type="submit"], input[type="reset"]:hover {
     background: #23b684;
 }
 /* //contact page */

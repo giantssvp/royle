@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "transport_form";
+}
+
+<div class="col-md-4">
+    <div class="banner-form-agileinfo">
+        <h5>Need To <span>Transport</span>?</h5>
+        <p>
+            Please prvoide your details for fast delivery product.
+        </p>
+        <form action=@Url.Action("submit_btn_transport","Home") method="post">
+            <input type="text" class="email" name="name" id="name" placeholder="Name" required="">
+            <input type="tel" class="tel" name="phone" id="phone" placeholder="Phone Number" required="">
+            <input type="email" class="tel" name="email" id="email" placeholder="Email ID" required="">
+            <input type="text" class="tel" name="from" id="from" placeholder="Transport From" required="">
+            <input type="text" class="tel" name="to" id="to" placeholder="Transport To" required="">
+            <input type="submit" class="hvr-shutter-in-vertical" name="submit" id="submit" value="Get started">
+        </form>
+    </div>
+</div>
